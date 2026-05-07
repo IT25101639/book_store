@@ -148,7 +148,7 @@
   <!--                       pages.  See the jasper documentation for more  -->
   <!--                       information.                                   -->
   <!--                                                                      -->
-  <!--   compilerSourceVM    Compiler source VM. [1.8]                      -->
+  <!--   compilerSourceVM    Compiler com.source VM. [1.8]                      -->
   <!--                                                                      -->
   <!--   compilerTargetVM    Compiler target VM. [1.8]                      -->
   <!--                                                                      -->
@@ -158,7 +158,7 @@
   <!--                       modificationTestInterval parameter. [true]     -->
   <!--                                                                      -->
   <!--   displaySourceFragment                                              -->
-  <!--                       Should a source fragment be included in        -->
+  <!--                       Should a com.source fragment be included in        -->
   <!--                       exception messages? [true]                     -->
   <!--                                                                      -->
   <!--   dumpSmap            Should the SMAP info for JSR45 debugging be    -->
@@ -196,9 +196,9 @@
   <!--                       [clsid:8AD9C840-044E-11D1-B3E9-00805F499D93]   -->
   <!--                                                                      -->
   <!--   javaEncoding        Java file encoding to use for generating java  -->
-  <!--                       source files. [UTF8]                           -->
+  <!--                       com.source files. [UTF8]                           -->
   <!--                                                                      -->
-  <!--   keepgenerated       Should we keep the generated Java source code  -->
+  <!--   keepgenerated       Should we keep the generated Java com.source code  -->
   <!--                       for each page instead of deleting it? [true]   -->
   <!--                                                                      -->
   <!--   mappedfile          Should we generate static content with one     -->
@@ -2086,7 +2086,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>java</extension>
-        <mime-type>text/x-java-source</mime-type>
+        <mime-type>text/x-java-com.source</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>jisp</extension>
@@ -3739,7 +3739,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>src</extension>
-        <mime-type>application/x-wais-source</mime-type>
+        <mime-type>application/x-wais-com.source</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>srt</extension>
